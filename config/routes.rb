@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'post/create' => 'posts#create'
   get 'post/new' => 'posts#new'
   resources:posts
+  root 'posts#index'
   end
